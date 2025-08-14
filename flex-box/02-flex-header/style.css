@@ -1,0 +1,33 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 60px;
+    background-color: rgb(240, 222, 161);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background-color: white;
+    padding: 8px 6px;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
